@@ -38,9 +38,10 @@
 }
 
 .tf-navbar-inner {
-  max-width: 1240px;
+  max-width: 1520px;
+  width: 100%;
   margin: 0 auto;
-  padding: 16px 24px;
+  padding: 16px 36px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -137,9 +138,10 @@
 }
 
 .tf-container {
-  max-width: 1240px;
+  max-width: 1520px;
+  width: 100%;
   margin: 0 auto;
-  padding: 36px 24px 80px;
+  padding: 36px 36px 80px;
 }
 
 .tf-eyebrow {

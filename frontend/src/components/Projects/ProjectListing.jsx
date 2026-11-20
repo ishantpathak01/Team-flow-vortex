@@ -215,9 +215,9 @@ export function ProjectListing({
             display: 'grid',
             gridTemplateColumns:
               viewMode === 'grid'
-                ? 'repeat(auto-fill, minmax(340px, 1fr))'
+                ? 'repeat(auto-fill, minmax(320px, 1fr))'
                 : '1fr',
-            gap: '18px',
+            gap: '22px',
           }}
         >
           {filteredProjects.map((project) => (
