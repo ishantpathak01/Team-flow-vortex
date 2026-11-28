@@ -23,6 +23,8 @@ app.get("/", (req, res) => {
 // Authentication Routes
 app.use("/api/auth", require("./routes/authRoutes"));
 
+app.use("/api/projects", require("./routes/projectRoutes"));
+
 // 404 Handler
 app.use((req, res) => {
     res.status(404).json({
